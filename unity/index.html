@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | 그림판</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -51,13 +51,13 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/python_project.loader.js";
+      var buildUrl = ".";
+      var loaderUrl = "./python_project.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/python_project.data.gz",
-        frameworkUrl: buildUrl + "/python_project.framework.js.gz",
-        codeUrl: buildUrl + "/python_project.wasm.gz",
+        dataUrl: "./python_project.data.gz",
+        frameworkUrl: "./python_project.framework.js.gz",
+        codeUrl:  "./python_project.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "그림판",
