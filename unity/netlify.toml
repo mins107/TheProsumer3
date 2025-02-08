@@ -1,0 +1,22 @@
+[[headers]]
+for = "*.data.gz"
+  [headers.values]
+  Content-Encoding = "gzip"
+  Content-Type = "application/octet-stream"
+
+[[headers]]
+for = "*.framework.js.gz"
+  [headers.values]
+  Content-Encoding = "gzip"
+  Content-Type = "application/javascript"
+
+[[headers]]
+for = "*.loader.js"
+  [headers.values]
+  Content-Type = "application/javascript"
+
+[[headers]]
+for = "*.wasm.gz"
+  [headers.values]
+  Content-Encoding = "gzip"
+  Content-Type = "application/wasm"
