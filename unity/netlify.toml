@@ -22,8 +22,8 @@ for = "*.wasm.gz"
   Content-Type = "application/wasm"
 
 [build]
-  command = "npm run unity"
   publish = "unity"
+  command = ""
 
 [[redirects]]
 from = "/*"
