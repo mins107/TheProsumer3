@@ -33,6 +33,7 @@
             ? "block"
             : "none";
         }
+        ㄴ;
         var div = document.createElement("div");
         div.innerHTML = msg;
         warningBanner.appendChild(div);
@@ -52,9 +53,9 @@
       var loaderUrl = buildUrl + "/python_project.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/python_project.data.gz",
-        frameworkUrl: buildUrl + "/python_project.framework.js.gz",
-        codeUrl: buildUrl + "/python_project.wasm.gz",
+        dataUrl: buildUrl + "/webgl.data",
+        frameworkUrl: buildUrl + "/build.framework.js",
+        codeUrl: buildUrl + "/python_project.wasm/build.wasm",
         streamingAssetsUrl: "unity/StreamingAssets",
         companyName: "DefaultCompany",
         productName: "그림판",
